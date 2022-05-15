@@ -1,0 +1,36 @@
+{
+  "name": "ppostudy-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js delay 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evencoding/ppostudy-backend.git"
+  },
+  "author": "Evencoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evencoding/ppostudy-backend/issues"
+  },
+  "homepage": "https://github.com/evencoding/ppostudy-backend#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "nodemon": "^2.0.16"
+  }
+}
